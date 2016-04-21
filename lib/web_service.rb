@@ -257,8 +257,8 @@ module Geonames
       url += "&radius=#{Geonames.radius}"
       url += "&lang=#{Geonames.lang}"
       options = {
-        :open_timeout => 60,
-        :read_timeout => 60
+        :open_timeout => 2,
+        :read_timeout => 2
       }
       options.update(args.last.is_a?(::Hash) ? args.pop : {})
       uri = URI.parse(url)
