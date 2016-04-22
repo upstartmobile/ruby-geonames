@@ -34,7 +34,7 @@ require_relative 'intersection'
 module Geonames
   autoload :Config,  'geonames/config'
 
-  GEONAMES_SERVER = "http://ws.geonames.org"
+  GEONAMES_SERVER = "http://ws.geonames.net"
   USER_AGENT = "geonames ruby webservice client 0.1"
 
   class << self

@@ -22,7 +22,7 @@ module Geonames
     attr_reader :password
 
     @@default_username  = nil
-    @@default_base_url  = "http://ws.geonames.org"
+    @@default_base_url  = "http://ws.geonames.net"
     @@default_lang      = "en"
     @@default_radius    = 0.5
 
